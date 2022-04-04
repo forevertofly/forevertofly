@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhifei_city.gitee.io/posts/1.html</loc>
+    
+    <lastmod>2022-04-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhifei_city.gitee.io/categories/%E5%8D%8F%E5%90%8C%E5%8A%9E%E5%85%AC.html</loc>
+    
+    <lastmod>2022-04-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhifei_city.gitee.io/tags/index-1.html</loc>
+    
+    <lastmod>2022-04-04</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zhifei_city.gitee.io/about/index.html</loc>
     
     <lastmod>2022-04-04</lastmod>
@@ -108,10 +129,24 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://zhifei_city.gitee.io/tags/Java/</loc>
+    <lastmod>2022-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://zhifei_city.gitee.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2022-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhifei_city.gitee.io/categories/%E5%8D%8F%E5%90%8C%E5%8A%9E%E5%85%AC/</loc>
     <lastmod>2022-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
