@@ -6,7 +6,7 @@
   <link href="https://zhifei_city.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://zhifei_city.gitee.io/"/>
-  <updated>2021-09-07T14:52:39.538Z</updated>
+  <updated>2022-04-05T13:58:16.462Z</updated>
   <id>https://zhifei_city.gitee.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>shiro与JWT介绍</title>
+    <link href="https://zhifei_city.gitee.io/posts/1.html"/>
+    <id>https://zhifei_city.gitee.io/posts/1.html</id>
+    <published>2022-04-05T12:18:03.000Z</published>
+    <updated>2022-04-05T13:58:16.462Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p><strong>Shiro官网</strong>： <a href="https://shiro.apache.org/">https://shiro.apache.org/</a></p><p>CSDN：<a href="https://blog.csdn.net/bbxylqf126com/article/details/110501155?ops_request_misc=%7B%22request_id%22:%22164916483516780357293390%22,%22scm%22:%2220140713.130102334..%22%7D&amp;request_id=164916483516780357293390&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-110501155.142%5Ev5%5Epc_search_result_control_group,157%5Ev4%5Enew_style&amp;utm_term=shiro&amp;spm=1018.2226.3001.4187">(50条消息) 一篇适合小白的Shiro教程_潮汐先生的博客-CSDN博客_shiro</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Shiro官网&lt;/strong&gt;： &lt;a href=&quot;https://shiro.apache.org/&quot;&gt;https://shiro.apache.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CSDN：&lt;a href=&quot;https://blog.csdn.n</summary>
+      
+    
+    
+    
+    <category term="技术介绍" scheme="https://zhifei_city.gitee.io/categories/%E6%8A%80%E6%9C%AF%E4%BB%8B%E7%BB%8D/"/>
+    
+    
+    <category term="shiro" scheme="https://zhifei_city.gitee.io/tags/shiro/"/>
+    
+  </entry>
   
   <entry>
     <title>博客与博主</title>
@@ -46,14 +72,15 @@
     <link href="https://zhifei_city.gitee.io/posts/1.html"/>
     <id>https://zhifei_city.gitee.io/posts/1.html</id>
     <published>2021-05-27T13:00:00.000Z</published>
-    <updated>2022-04-04T03:09:23.624Z</updated>
+    <updated>2022-04-05T12:18:27.681Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="生活如此多交"><a href="#生活如此多交" class="headerlink" title="生活如此多交"></a>生活如此多交</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="生活如此美好"><a href="#生活如此美好" class="headerlink" title="生活如此美好"></a>生活如此美好</h2><p>协同办公版本要求</p><p> <img src="https://s1.ax1x.com/2022/04/04/qbGbuj.png"></p><p>添加依赖</p><p><img src="https://s1.ax1x.com/2022/04/04/qq1OTP.png"></p><p><strong>yml文件配置</strong></p><pre class="line-numbers language-none"><code class="language-none">server:  tomcat:    uri-encoding: UTF-8    threads:      max: 200      min-spare: 30    connection-timeout: 5000ms  port: 8080  servlet:    context-path: /emos-wx-apispring:  datasource:    type: com.alibaba.druid.pool.DruidDataSource    druid:      driver-class-name: com.mysql.cj.jdbc.Driver      url: jdbc:mysql://localhost:3306/emos?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai      username: root      password: 123456      initial-size: 8      max-active: 16      min-idle: 8      max-wait: 60000      test-while-idle: true      test-on-borrow: false      test-on-return: false<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>mybatis配置</p><p>日志文件配置</p><pre class="line-numbers language-none"><code class="language-none">mybatis:  mapper-locations: classpath*:mapper/*.xml  type-aliases-package: com.example.emos.wx.db.pojo  configuration:    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl    map-underscore-to-camel-case: truelogging:  level:    root: info    com.example.emos.wx.db.dao : warn  pattern:    console: "%d{HH:mm:ss}  %-5level  %msg%n"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><a href=""></a></p><p><strong>学习总结</strong></p><ol><li><p>Springboot项目有三种方式创建：maven ，idea，官网</p></li><li><p>date：2022\4\4  21:39</p></li></ol><h1 id="第二天"><a href="#第二天" class="headerlink" title="第二天"></a>第二天</h1><p>学习第三章，shiro与jwt介绍</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;生活如此多交&quot;&gt;&lt;a href=&quot;#生活如此多交&quot; class=&quot;headerlink&quot; title=&quot;生活如此多交&quot;&gt;&lt;/a&gt;生活如此多交&lt;/h2&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;生活如此美好&quot;&gt;&lt;a href=&quot;#生活如此美好&quot; class=&quot;headerlink&quot; title=&quot;生活如此美好&quot;&gt;&lt;/a&gt;生活如此美好&lt;/h2&gt;&lt;p&gt;协同办公版本要求&lt;/p&gt;
+&lt;p&gt; &lt;img src=&quot;https://s1.ax1x.com/2022/04</summary>
       
     
     
